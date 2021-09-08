@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Ativ1_Styles",
+    "slug": "Ativ1_Styles",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Ativ1_Styles"
+}
