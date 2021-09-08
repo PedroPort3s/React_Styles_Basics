@@ -18,9 +18,11 @@ export default function App() {
       {/* SEÇÃO 2 */}
       <View style={styles.secao2}>
       <Text style={styles.tituloBold}>Seção 2</Text>
+      <View>
         <View style={styles.quadVerm}></View>
-        <View style={styles.quadVerd}></View>
-        <View style={styles.quadAzul}></View>
+          <View style={styles.quadVerd}></View>
+          <View style={styles.quadAzul}></View>
+        </View>
       </View>
     </View>
     
@@ -49,24 +51,34 @@ const styles = StyleSheet.create({
   secao2:
   {
     backgroundColor: '#EEE',
-    alignItems: 'center'
+    position:'relative',
+    height:150,
+    textAlign: 'right'
   },  
   quadVerm:
   {
     backgroundColor: '#A20202',
     height:50,
-    width:'80%'
+    width:50,
+    elevation:1,
+    position:'absolute'
   },
   quadVerd:
   {
     backgroundColor: '#02FA2F',
-    height:100,
-    width:'80%'
+    height:50,
+    width:50,
+    elevation:2,
+    position:'absolute',
+    marginLeft:10
   },
   quadAzul:
   {
     backgroundColor: '#00AAFF',
-    height:150,
-    width:'80%'
+    height:50,
+    width:50,
+    elevation:0,
+    marginTop:40,
+    position:'absolute'
   }
 });
