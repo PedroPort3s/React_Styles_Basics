@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   {
     backgroundColor: '#EEE',
     position:'relative',
-    height:150,
+    height:"100%",
     textAlign: 'right'
   },  
   quadVerm:
@@ -61,7 +61,9 @@ const styles = StyleSheet.create({
     height:50,
     width:50,
     elevation:1,
-    position:'absolute'
+    position:'absolute',
+    top:200,
+    left:150
   },
   quadVerd:
   {
@@ -70,7 +72,8 @@ const styles = StyleSheet.create({
     width:50,
     elevation:2,
     position:'absolute',
-    marginLeft:10
+    top:200,
+    left:140
   },
   quadAzul:
   {
@@ -78,7 +81,8 @@ const styles = StyleSheet.create({
     height:50,
     width:50,
     elevation:0,
-    marginTop:40,
-    position:'absolute'
+    position:'absolute',
+    top:240,
+    left:150
   }
 });
